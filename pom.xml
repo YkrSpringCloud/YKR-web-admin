@@ -17,6 +17,11 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.kr</groupId>
+            <artifactId>YKR-common-thymeleaf</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
 <!--springboot开始-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -32,8 +37,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 <!--springboot结束-->
-
-
         <!--springcloud开始-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -63,7 +66,6 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <!--解决thymeleaf模板引擎一定要执行严格的html5的格式校验问题-->
         <!--解决thymeleaf模板引擎一定要执行严格的html5的格式校验问题-->
         <dependency>
             <groupId>net.sourceforge.nekohtml</groupId>
